@@ -1,0 +1,267 @@
+@import "null.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Montserrat:wght@200;400;700&display=swap');
+
+
+
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	max-width: 60%;
+	/* сверху/снизу, слева/справа */
+	/* выравнивание по центру */
+	margin: 0px auto ; 
+	
+}
+
+*{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+}
+
+.logo{
+	max-width: 200px;
+	margin-bottom: 40px;
+}
+
+h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 60px;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 90px;
+	text-shadow: 5px 5px 5px orange;
+}
+
+/* контейнер картинка большая */
+.section-img-big{
+	margin-bottom: 100px ;
+	
+}
+
+.img-big{
+		/* картинка увеличивается/уменьшается при изменении размера вьюпорта */
+	width: 100%; 
+	border-radius: 30% 20px 30% 20px;
+	box-shadow: 0px 0px 40px 20px black, 0px 0px 40px 20px green;
+}
+
+/* контейнер для малых картинок */
+.ph-img{
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+/* картинка 1 (скорая) */
+.img1{
+	/* сложная граница */
+	border-radius: 100% 0% 68% 32% / 46% 36% 64% 54% ;
+	box-shadow: 0px 0px 40px 10px black, 0px 0px 40px 20px rgb(202, 101, 6);
+	
+}
+
+/* картинка (пожар) */
+.img2{
+	border-radius: 50%;
+	width: 400px;
+	height: 400px;
+	box-shadow: 0px 0px 40px 10px black, 0px 0px 40px 20px rgb(202, 101, 6);
+	
+}
+
+
+a.link{
+	border-bottom: 5px dashed green;
+	line-height: 1.5;
+	display: inline;
+	box-shadow: inset 0px 10px 20px 2px yellow;
+}
+
+/* список */
+.list li{
+	padding-bottom: 20px;
+}
+
+.section-list {
+	padding-left: 70px;
+	margin-bottom: 40px;
+}
+
+/* параграфы */
+
+.section1 p{
+	margin-bottom: 40px;
+	line-height: 1.5;
+}
+
+.paragraph1{
+	/* граница с радиусом */
+	font-weight: 700;
+	color: orange;
+	border: 10px dotted green ;
+	border-radius: 50px;
+	padding: 20px;
+	line-height: 1.5;
+}
+
+.paragraph2{
+	/* верхняя граница другая */
+	border: 5px solid green;
+	border-top: 5px dotted orange;
+	border-radius: 20px 60px;
+	padding: 20px;
+	line-height: 1.5;
+	text-align: left;
+	
+}
+
+.section-ph2{
+	max-width: 500px;
+	margin: 0 0 0 auto;
+}
+
+.paragraph3{
+	/* обводка */
+	padding: 20px;
+	text-align: center;
+	outline: 10px dotted red;
+	border-radius: 100px;
+	
+}
+
+.paragraph4{
+	/* прозрачная верхняя граница */
+	border: 20px dashed orange ;
+	border-top: 30px dashed transparent ;
+	text-align: center;
+	padding: 10px;
+
+}
+
+.paragraph5{
+	padding: 20px;
+	text-align: center;
+	/* тень внутри  */
+	box-shadow: inset 0 0 20px 0 green;
+	border-radius: 10px 50px;
+}
+
+.section-ph6, .section-ph3 {
+	margin: 0px auto 0px;
+	max-width: 1000px;
+	
+} 
+
+
+.paragraph6{
+	border-radius: 30px 40px 20px 10px;
+	box-shadow: 10px 10px 50px 10px orange;
+	padding: 20px;
+	
+}
+
+.paragraph8{
+	padding: 10px;
+	border-top: 20px double orange;
+	border-radius: 0 0 30px 30px;
+	box-shadow: inset 10px 10px 40px 10px orange;
+}
+
+.section-ph9{
+	margin: 0px 20px;
+	max-width: 800px;
+}
+
+.paragraph9{
+	outline: 10px dashed red;
+	padding: 10px;
+	
+}
+
+
+.paragraph10{
+	padding: 20px;
+	border: 5px solid black;
+	border-radius: 0 0 0 50px;
+	max-width: 500px;
+	box-shadow: 25px -5px 40px 10px black;
+}
+
+.section-ph12{
+	max-width: 500px;
+	max-height: 500px;
+}
+
+.paragraph12{
+	overflow: hidden;
+	border-radius: 50%;
+	border: 10px double green;
+	padding: 70px;
+	text-align: center;
+	box-shadow: inset 0 0 20px 5px green;
+	
+}
+/* разница между свойствами visibility opacity display */
+.paragraph7{
+	/* скрывает объект но оставляет место которое он занимает, мы не можем взаимодействовать с объектом */
+	visibility:hidden;
+}
+
+.list-item2{
+	/* объект становится прозрачным, место остается, можем взаимодействовать с контентом */
+	opacity: 0;
+}
+
+.paragraph11{
+	/* объект полностью исчезает вместе с местом которое занимал */
+	display: none;
+}
+
+
+.section-quote{
+	padding: 20px;
+	border: 5px solid black;
+	border-radius: 0 0 50px 0px;
+	box-shadow: -25px 5px 40px 10px black;
+}
+
+.section-quote-father{
+	max-width: 500px;
+	margin:0 0 40px auto;
+}
+
+.quote{
+	color: orangered;
+	/* прозрачность фона */
+	background-color: rgb(0, 0, 0, 0.3);
+	line-height: 1.5;
+	font-style: italic;
+	
+}
+
+
+
+
+
+
+.section-footer{
+	text-align:center;
+}
+
+.footer-ph{
+	font-size: 20px;
+}
+.list-footer{
+	margin-bottom: 20px;
+	font-weight: 700;
+	color: green;
+	text-shadow: 10px 10px 10px grey;
+}
+.list-footer li{
+	display: inline-block;
+	padding: 10px;	
+}
+	
